@@ -1,9 +1,10 @@
 import { Metadata } from "next"
+import { redirect } from "next/navigation"
 
 export const metadata: Metadata = {
   title: "Aide",
 }
 
 export default function Page() {
-  return <main className="p-4"> Help</main>
+  redirect("/fr/help")
 }

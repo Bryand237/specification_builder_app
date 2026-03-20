@@ -1,7 +1,6 @@
 import HeaderActions from "./header-actions"
 import HeaderItems from "./header-items"
 import HeaderLogo from "./header-logo"
-import HeaderUser from "./header-user"
 
 export default function HeaderNav() {
   return (
